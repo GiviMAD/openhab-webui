@@ -71,9 +71,9 @@
 	</feature>
 
 
-	<feature name="openhab-ui-habassistant" description="HABAssistant" version="${project.version}">
+	<feature name="openhab-ui-habspeaker" description="HABSpeaker" version="${project.version}">
 		<feature>openhab-core-ui</feature>
-		<bundle>mvn:org.openhab.ui.bundles/org.openhab.ui.habassistant/${project.version}</bundle>
+		<bundle>mvn:org.openhab.ui.bundles/org.openhab.ui.habspeaker/${project.version}</bundle>
 		<bundle>mvn:org.openhab.core.bundles/org.openhab.core.semantics/${project.version}</bundle>
 		<bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest/${project.version}</bundle>
 		<bundle dependency="true">mvn:org.bouncycastle/bcprov-jdk15on/1.69</bundle>

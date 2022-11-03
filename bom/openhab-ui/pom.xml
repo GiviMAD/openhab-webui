@@ -48,7 +48,7 @@
     </dependency>
     <dependency>
       <groupId>org.openhab.ui.bundles</groupId>
-      <artifactId>org.openhab.ui.habassistant</artifactId>
+      <artifactId>org.openhab.ui.habspeaker</artifactId>
       <version>${project.version}</version>
       <scope>compile</scope>
     </dependency>
